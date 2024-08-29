@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hip 'L'world</title>
+    <link rel="stylesheet" href="selector3.css">
+</head>
+<body>
+    <div class="nav">
+        <button id="nav-item" type="button"><b>Hip 'L'world</b></div>
+        <div class="nav-items"><b>Join</b></div>
+        </button>
+    </div>
+    <form>
+        <fieldset>
+            <div class="main">
+            <label><b>name</b>&nbsp;&nbsp;&nbsp;</label><input type="name" value="&nbsp;&nbsp;&nbsp;"><br><br>
+            <label><b>password</b>&nbsp;&nbsp;&nbsp;</label><input type="password" value=><br><br>
+            <label><b>e-mail</b>&nbsp;&nbsp;&nbsp;</label><input type="email" value="&nbsp;&nbsp;&nbsp;"><br><br>
+            <label><b>number</b>&nbsp;&nbsp;&nbsp;</label><input type="tel" value="&nbsp;&nbsp;&nbsp;"><br><br>
+            </div>
+            <!--모달 팝업-->
+            <div class="modal">
+                <div class="modal_popup">
+                    <h1><b>회원가입 성공!</b></h1>
+                    <button id="btn2" type="button" class="close_btn"><b>닫기</b></button>
+                </div>
+            </div>
+            <!--end 모달 팝업-->
+            <button type="submit" value="취소" class="bt1"><b>취소</b></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button type="button" class="modal_btn"><b>확인</b></button>
+        </fieldset>  
+    </form>
+    <div class="poto">
+        <div class="poto1">
+            <img src="sample/Untitled-2.png" width="189px" height="152px">
+        </div>
+        <div class="poto2">
+            <img src="sample/Untitled-6.png"  width="238px" height="230px">
+        </div>
+    </div>
+    <script>
+        const modal = document.querySelector('.modal');
+        const modalOpen = document.querySelector('.modal_btn');
+        const modalClose = document.querySelector('.close_btn');
+
+        //열기 버튼을 눌렀을 때 모달 팝업이 열림
+        modalOpen.addEventListener('click',function(){
+        modal.classList.add('on');
+        })
+        //닫기 버튼을 눌렀을 때 모달 팝엄이 닫힘
+        modalClose.addEventListener('click',function(){
+        modal.classList.remove('on');
+        })
+    </script>
+    <script>
+        const $bt = document.getElementById('btn2');
+        $bt.onclick = () => location.href='01_web-page-main.html';
+    </script>
+    <script>
+        const $bt1 = document.getElementById('nav-item');
+        $bt1.onclick = () => location.href='01_web-page-main.html';
+    </script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hip 'L'world</title>
+    <link rel="stylesheet" href="selector1.css">
+</head>
+<body>
+    <div class="nav">
+        <b class="blinking-text">Hip 'L'world</b>
+        <div class="nav-items">
+            <div id="nav-item"><button onclick="alert('로그인 후 이용 가능합니다.'); console.log('로그인 후 이용 가능합니다.')"><b>Contact</b></button></div>
+            <button id="nav-item1" type="button"><b>join</b></button>
+            <button id="nav-item2" type="button"><b>Login</b></button>
+        </div>
+    </div>
+    <div class="main">
+        <div class="title">
+            <h3 contenteditable>"한글"</h3>
+        </div>
+        <div class="scroll-text">
+            <div class="track">
+                <b>Let's Learn Hangul!</b>&nbsp;&nbsp;&nbsp;
+                <b>Let's Learn Hangul!</b>&nbsp;&nbsp;&nbsp;
+                <b>Let's Learn Hangul!</b>&nbsp;&nbsp;&nbsp;
+                <b>Let's Learn Hangul!</b>&nbsp;&nbsp;&nbsp;
+                <b>Let's Learn Hangul!</b>&nbsp;&nbsp;&nbsp;
+                <b>Let's Learn Hangul!</b>
+            </div>
+        </div>
+    </div>
+    <div class="img">
+        <img src="sample/Untitled-1.png"  style="display: block;margin: auto;" width="800px" height="250px">
+    </div>
+    <footer></footer>
+
+    <script>
+        const $bt = document.getElementById('nav-item1');
+        $bt.onclick = () => location.href= '03_web-page-sub2.html';
+    </script>
+    <script>
+        const $bt2 = document.getElementById('nav-item2');
+        $bt2.onclick = () => location.href= '04_web-page-sub3.html';
+    </script>
+</body>
+</html>
