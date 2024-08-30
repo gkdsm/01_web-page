@@ -1,165 +1,173 @@
+body {
+    margin: 0;
+    width: 1920px;
+}
+.nav {
+    height: 30px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    color: #2000D8;
+    font-family: "PyeongChang Peace";
+    font-size: 35px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#blinking-text {
+    animation: blink 4.5s infinite; /*()초 간격으로 무한 반복*/
+    color: #2000D8;
+    border: none;
+    font-family: "PyeongChang Peace";
+    font-size: 35px;
+    background-color: transparent;
+    margin-top: 30px;
+    margin-left: 45px;
+}
+.poto1 {
+    position:absolute;
+    transform : translate(200px, 350px);
+}
+.text1 {
+    background:#FFE100;
+    color: #2000D8;
+    font-family: "PyeongChang Peace";
+    font-size: 70px;
+    position: absolute;
+    transform : translate(183px, 179px);
+}
+.poto2 {
+    position:absolute;
+    transform : translate(120px, 1500px);
+}
+.text2 {
+    background:#FFE100;
+    color: #2000D8;
+    font-family: "PyeongChang Peace";
+    font-size: 70px;
+    position: absolute;
+    transform : translate(183px, 1259px);
+}
+.poto3 {
+    position:absolute;
+    transform : translate(150px, 2500px);
+}
+.text3 {
+    background:#FFE100;
+    color: #2000D8;
+    font-family: "PyeongChang Peace";
+    font-size: 70px;
+    position: absolute;
+    transform : translate(220px, 2300px);
+}
+.poto4 {
+    position:absolute;
+    transform : translate(140px, 3600px);
+}
+.text4 {
+    background:#FFE100;
+    color: #2000D8;
+    font-family: "PyeongChang Peace";
+    font-size: 70px;
+    position: absolute;
+    transform : translate(160px, 3300px);
+}
+.poto5 {
+    position:absolute;
+    transform : translate(110px, 4750px);
+}
+.text5 {
+    background:#FFE100;
+    color: #2000D8;
+    font-family: "PyeongChang Peace";
+    font-size: 70px;
+    position: absolute;
+    transform : translate(200px, 4490px);
+}
+.block {
+    width: 790px;
+    height: 1080px;
+    margin-top: -50px;
+    margin-left: 1110px;
+    align-items: center;
+}
+.area1 {
+    background: #2000D8;
+    color: #2000D8;
+    font-size: 120px;
+    font-family: "PyeongChang Peace";
+    text-shadow: -6px 0 #FFE100, 0 6px #FFE100, 6px 0 #FFE100, 0 -6px #FFE100;
+}
+.area2 {
+    background: #FFE100;
+    color: #FFE100;
+    font-size: 120px;
+    font-family: "PyeongChang Peace";
+    text-shadow: -9px 0 #2000D8, 0 9px #2000D8, 9px 0 #2000D8, 0 -9px #2000D8;
+}
+.box {
+    width: 1050px;
+    height: 2000px;
+    margin-top: -4920px;
+    margin-left: 560px;
+    padding-top: -90px;
+    font-family: "PyeongChang Peace";
+    font-size: 50px;
+    color: #2000D8;
+}
+.box1{
+    background: white;
+    margin-bottom: 490px;
+    width: 1050px;
+    height: 550px;
+    border: 10px solid #FFE100;
+    border-radius: 25px;
+}
+.box2{
+    background: white;
+    margin-bottom: 490px;
+    width: 1050px;
+    height: 550px;
+    border: 10px solid #2000D8;
+    border-radius: 25px;
+}
+.box3{
+    background: white;
+    margin-bottom: 490px;
+    width: 1050px;
+    height: 550px;
+    border: 10px solid #FFE100;
+    border-radius: 25px;
+}
+.box4{
+    background: white;
+    margin-bottom: 550px;
+    width: 1050px;
+    height: 550px;
+    border: 10px solid #2000D8;
+    border-radius: 25px;
+}
+.box5{
+    background: white;
+    margin-bottom: 600px;
+    width: 1050px;
+    height: 550px;
+    border: 10px solid #FFE100;
+    border-radius: 25px;
+}
 
-        body {
-            margin: 0;
-            width: 1920px;
-        }
-        .nav {
-            height: 30px;
-            width: auto;
-            display: flex;
-            align-items: center;
-            color: #2000D8;
-            font-family: "PyeongChang Peace";
-            font-size: 35px;
-            margin-top: 20px;
-            margin-left: 20px;
-        }
-        @keyframes blink {
-            0% {
-                opacity: 1;
-            }
-            50% {
-                opacity: 0;
-            }
-            100% {
-                opacity: 1;
-            }
-        }
-        #blinking-text {
-            animation: blink 4.5s infinite; /*()초 간격으로 무한 반복*/
-            color: #2000D8;
-            border: none;
-            font-family: "PyeongChang Peace";
-            font-size: 35px;
-            background-color: transparent;
-            margin-top: 30px;
-            margin-left: 45px;
-        }
-        .poto1 {
-            position:absolute;
-            transform : translate(200px, 350px);
-        }
-        .text1 {
-            background:#FFE100;
-            color: #2000D8;
-            font-family: "PyeongChang Peace";
-            font-size: 70px;
-            position: absolute;
-            transform : translate(183px, 179px);
-        }
-        .poto2 {
-            position:absolute;
-            transform : translate(120px, 1500px);
-        }
-        .text2 {
-            background:#FFE100;
-            color: #2000D8;
-            font-family: "PyeongChang Peace";
-            font-size: 70px;
-            position: absolute;
-            transform : translate(183px, 1259px);
-        }
-        .poto3 {
-            position:absolute;
-            transform : translate(150px, 2500px);
-        }
-        .text3 {
-            background:#FFE100;
-            color: #2000D8;
-            font-family: "PyeongChang Peace";
-            font-size: 70px;
-            position: absolute;
-            transform : translate(220px, 2300px);
-        }
-        .poto4 {
-            position:absolute;
-            transform : translate(140px, 3600px);
-        }
-        .text4 {
-            background:#FFE100;
-            color: #2000D8;
-            font-family: "PyeongChang Peace";
-            font-size: 70px;
-            position: absolute;
-            transform : translate(160px, 3300px);
-        }
-        .poto5 {
-            position:absolute;
-            transform : translate(110px, 4750px);
-        }
-        .text5 {
-            background:#FFE100;
-            color: #2000D8;
-            font-family: "PyeongChang Peace";
-            font-size: 70px;
-            position: absolute;
-            transform : translate(200px, 4490px);
-        }
-        .block {
-            width: 790px;
-            height: 1080px;
-            margin-top: -50px;
-            margin-left: 1110px;
-            align-items: center;
-        }
-        .area1 {
-            background: #2000D8;
-            color: #2000D8;
-            font-size: 120px;
-            font-family: "PyeongChang Peace";
-            text-shadow: -6px 0 #FFE100, 0 6px #FFE100, 6px 0 #FFE100, 0 -6px #FFE100;
-        }
-        .area2 {
-            background: #FFE100;
-            color: #FFE100;
-            font-size: 120px;
-            font-family: "PyeongChang Peace";
-            text-shadow: -9px 0 #2000D8, 0 9px #2000D8, 9px 0 #2000D8, 0 -9px #2000D8;
-        }
-        .box {
-            width: 1050px;
-            height: 2000px;
-            margin-top: -4920px;
-            margin-left: 560px;
-            padding-top: -90px;
-            font-family: "PyeongChang Peace";
-            font-size: 50px;
-            color: #2000D8;
-            
-        }
-        .box1{
-            background: white;
-            margin-bottom: 490px;
-            width: 1050px;
-            height: 550px;
-        }
-        .box2{
-            background: white;
-            margin-bottom: 490px;
-            width: 1050px;
-            height: 550px;
-        }
-        .box3{
-            background: white;
-            margin-bottom: 490px;
-            width: 1050px;
-            height: 550px;
-        }
-        .box4{
-            background: white;
-            margin-bottom: 550px;
-            width: 1050px;
-            height: 550px;
-        }
-        .box5{
-            background: white;
-            margin-bottom: 600px;
-            width: 1050px;
-            height: 550px;
-        }
-
-        @keyframes slide {
-            from{
-                right: -100px;
-            }
-        }
+@keyframes slide {
+    from{
+        right: -100px;
+    }
+}
